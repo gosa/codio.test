@@ -1,0 +1,46 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "karma": "~0.12.16",
+    "grunt-karma": "~0.8.3"
+  },
+  "name": "codio.test",
+  "description": "Place to test out new things quicly",
+  "version": "0.0.0",
+  "main": "/test/hello_world.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gosa/codio.test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Goran Stamenkovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gosa/codio.test/issues"
+  },
+  "homepage": "https://github.com/gosa/codio.test"
+}
